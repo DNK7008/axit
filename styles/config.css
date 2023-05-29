@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+.container  {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  background-color: #EC7979;
+  color: #fff
+}
+
+
+
