@@ -1,0 +1,74 @@
+.customers__wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 80px 0 60px 0;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 66px;
+  max-width: 370px;
+  /* background-color: gray; */
+}
+
+.comment__saying {
+  position: relative;
+  background-color: #E2E2E2;
+  padding: 38px 0;
+  border-radius: 10px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.comment__saying::after {
+  content: '';
+  border: 20px solid transparent;
+  border-top: 20px solid #E2E2E2;
+  position: absolute;
+  top: 160px;
+  left: 70px;
+}
+
+
+.comment__customers {
+  display: flex;
+  gap: 30px;
+}
+
+.comment__foto {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.comment__info {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+}
+
+
+
+.comment__surname {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+
+
+.comment__position {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
