@@ -1,13 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
 .container  {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .button {
   padding: 14.5px 0;
   max-width: 270px;
@@ -19,7 +17,6 @@
   background-color: #EC7979;
   color: #fff
 }
-
 .button:hover {
   cursor: pointer;
 }
