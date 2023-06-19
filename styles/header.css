@@ -1,5 +1,33 @@
 .header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
   min-height: 76px;
   background-color: #000000;
-  margin-bottom: 109px;
 }
+.header__wrapper {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  max-width: 87px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.nav__link:hover {
+  color: #EC7979;
+}
+

@@ -1,0 +1,136 @@
+.main {
+  position: relative;
+  z-index: 0;
+  background-image: url(../src/image/main.jpg);
+  /* background-color: black; */
+  padding-top: 207px;
+  padding-bottom: 185px;
+}
+
+.main:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.main__wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.main__logo {
+  max-width: 170px;
+  margin-bottom: 50px;
+}
+
+.main__title {
+  color: #ffffff;
+  margin-bottom: 55px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.165;
+}
+
+.main__line {
+  margin-bottom: 42px;
+  max-width: 170px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.main__subtitle {
+  max-width: 270px;
+  margin-bottom: 42px;
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.17;
+}
+
+.main__button {
+  background-color: transparent;
+  border: 2px solid #ffffff
+}
+
+.main__button:hover {
+  border: 2px solid #EC7979;
+}
+
+.main__button:active {
+  background-color: #AB4949;
+  border: 2px solid #AB4949;
+}
+
+.main__form {
+  padding-top: 31.5px;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 470px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__form-title {
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.375;
+}
+
+.main__form-mark {
+  text-transform: uppercase;
+  color: #EC7979;
+}
+
+.main__form-labels {
+  padding: 0 50px;
+}
+
+.main__form-input {
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  width: 100%;
+  padding: 0 0 15px 0;
+  margin-bottom: 36px;
+  font-family: 'Open Sans';
+  font-size: 0.875rem;
+  line-height: 1.357;
+  color: #BDBDBD;
+}
+
+.main__form-button {
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Open Sans';
+  font-size: 0.938rem;
+  line-height: 1.333;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  background-color: #EC7979;
+  color: #fff
+}
