@@ -1,3 +1,8 @@
+.tabs {
+  padding-top: 110px;
+}
+
+
 .radio-tabs {
   font-size: 0;
   margin-bottom: 10px;
@@ -12,7 +17,6 @@
   text-transform: uppercase;
   padding: 10px 82px;
   border-bottom: 1px solid #C6CBCD;
-  ;
   border-radius: 5px 5px 0px 0px;
   font-family: 'Open Sans';
   font-weight: 400;
